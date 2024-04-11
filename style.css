@@ -102,12 +102,11 @@ body {
 .seccion-negra {
     background-color: black;
     color: white;
-    padding: 40px; /* Aumentamos el espacio interno */
+    padding: 20px;
 }
 
 .seccion-negra h2 {
     margin-bottom: 20px;
-    margin-left: 10px; /* Ajustamos el margen izquierdo */
 }
 
 .columnas {

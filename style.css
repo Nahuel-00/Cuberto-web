@@ -96,12 +96,12 @@ body {
 .letrap2 {
     font-size: 400%;
     left: 100%;
-
+    color: black;
 }
 
 .letram2 {
     font-size: 500%;
-    color: gray; /* Cambiamos el color del texto grande a gris */
+    color: black;
 
 }
 
@@ -157,6 +157,125 @@ body {
 
 
 
+
+.seccion-negra {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.seccion-negra h2 {
+    margin-bottom: 20px;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.columna p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .titulo {
+        font-size: 300%;
+    }
+
+    .texto {
+        font-size: 0.85em;
+    }
+
+    .contenedor-seccion1,
+    .contenedor-seccion2,
+    .contenedor-seccion3 {
+        flex-direction: column;
+    }
+
+    .imagen1,
+    .imagen2,
+    .imagen3 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .imagen1 img,
+    .imagen2 img,
+    .imagen3 img {
+        max-width: 100%;
+        width: auto; /* Asegurar que la imagen no se haga más pequeña que su tamaño original */
+        height: auto;
+    }
+}
+
+.contenedor {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.titulo {
+    font-size: 600%;
+    color: rgb(11, 196, 156);
+}
+
+.texto {
+    font-size: 0.95em;
+    margin-bottom: 5px;
+    top: 0%;
+    text-align: left;
+}
+
+.contenedor-seccion1,
+.contenedor-seccion2,
+.contenedor-seccion3 {
+    display: flex;
+    padding: 20px;
+    background-color: rgb(252, 250, 250);
+    width: 100%;
+}
+
+.texto1,
+.texto2,
+.texto3 {
+    width: 100%;
+}
+
+.imagen1,
+.imagen2,
+.imagen3 {
+    flex-shrink: 0;
+    width: 50%;
+    margin-left: 0%;
+}
+
+.imagen1 img,
+.imagen2 img,
+.imagen3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.letrap1,
+.letram1,
+.letrap2,
+.letram2,
+.letrap3,
+.letram3 {
+    font-size: 400%;
+    color: gray;
+}
 
 .seccion-negra {
     background-color: black;

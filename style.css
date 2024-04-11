@@ -97,3 +97,30 @@ body {
 .letram2 {
     font-size: 1.2em;
 }
+
+
+.seccion-negra {
+    background-color: black;
+    color: white;
+    padding: 40px; /* Aumentamos el espacio interno */
+}
+
+.seccion-negra h2 {
+    margin-bottom: 20px;
+    margin-left: 10px; /* Ajustamos el margen izquierdo */
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.columna p {
+    margin: 0;
+    font-size: 0.9em;
+}
